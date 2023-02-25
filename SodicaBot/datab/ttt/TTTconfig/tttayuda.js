@@ -1,0 +1,107 @@
+const tttayuda = (prefix) => {
+    return `
+「 \u{1F4AE} TaTeTi \u{1F4AE} 」
+By: SodicaCrew✓
+
+◪ VERSIÓN 1.2.7
+
+◪ SÓLO FUNCIONA EN GRUPOS
+
+
+
+
+◪ ℹ️ INFORMACIÓN 
+  │
+  ├─ ❏ Somos de argentina, por lo tanto el "TicTacToe" como muchos lo conocen, acá se llama TaTeTi.
+  
+
+
+◪ MODOS
+  │
+  ├─ ❏ OFFLINE
+  │     └「 ${prefix}ttt [ DIFICULTAD ] 」
+  └─ ❏ONLINE
+        └「 ${prefix}tateti [@mencionar] (el jugador tendrá que enviar S para aceptar o N para rechazar) 」
+        
+        
+        
+◪ INICIAR
+  │
+  ├─ ❏ Para iniciar escribí:
+  │     └「 ${prefix}ttt [ DIFICULTAD ] 」
+  └─ ❏ Sólo puede jugar una persona a la vez. Para jugar de a dos personas, use ${prefix}tateti
+
+
+
+◪ DIFICULTADES
+  │
+  ├─ ❏ facil : modo gay
+  │    
+  ├─ ❏ normal : 66% de chances
+  │              de perder
+  │
+  ├─ ❏ hard : 11% de chances
+  │              de perder
+  │
+  └─ ❏ impossible : 0% de chances de ganar
+           
+
+
+◪ TEMPORIZADOR
+  │
+  ├─ ❏ Se pueden iniciar nuevas
+  │      partidas después de 4 minutos
+  │      
+  │     
+  │
+  └─ ❏ La partida terminará automáticamente después de 4 minutos
+
+
+
+◪ COMANDOS
+  │
+  ├─ ❏ Para elegir un cuadrado envíe:
+  │     └「 ${prefix}co [ COORDENADA ] 」
+  │
+  └─ ❏ Ejemplo:
+	        └「   ${prefix}co a1 
+	               ----------------------
+	               🌀1️⃣2️⃣3️⃣
+	               🅰️❌🔲🔲
+	               🅱️🔲🔲🔲
+	               ©️🔲🔲🔲  」
+
+◪ TU STATUS
+  │
+  └─ ❏ Para ver tu status, enviá:
+          └「 ${prefix}tttme 」
+          
+         
+
+◪ RECOMPENSAS
+  │
+  ├─ ❏ FÁCIL 
+  │     ├ Victoria : +「 25 / 50 」
+  │     └ Derrota : -「 200 / 200 」
+  │
+  ├─ ❏ NORMAL
+  │     ├ Victoria : +「 75 / 150 」
+  │     └ Derrota : -「 75 / 150 」
+  │
+  ├─ ❏ DIFÍCIL
+  │     ├ Victoria : +「 200 / 400 」
+  │     └ Derrota : -「 25 / 50 」
+  │
+  ├─ ❏ IMPOSSIBLE
+  │     ├ Victoria : +「 1000 / 2000 」
+  │     └ Derrota : -「 0 / 0 」
+  │
+  ├─ ❏ EMPATE
+  │     └「 0 / 0 」
+  │ 
+  └─ ❏ PARTIDA NO FINALIZADA
+          └ -「 75 / 150 」
+`
+}
+
+exports.tttayuda = tttayuda
